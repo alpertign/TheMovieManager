@@ -1,14 +1,14 @@
-package com.alpertign.themoviemanager
+package com.alpertign.themoviemanager.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_search.view.*
+import com.alpertign.themoviemanager.R
 
 
-class SearchFragment : Fragment() {
+class WatchlistFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,11 +16,7 @@ class SearchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_search, container, false)
-
-        view.recycler_view.showShimmer()
-
-        return view
+        return inflater.inflate(R.layout.fragment_watchlist, container, false)
     }
 
 

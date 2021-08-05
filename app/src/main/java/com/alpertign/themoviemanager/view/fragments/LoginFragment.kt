@@ -1,12 +1,13 @@
-package com.alpertign.themoviemanager
+package com.alpertign.themoviemanager.view.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.alpertign.themoviemanager.R
 
-class DetailsFragment : Fragment() {
+class LoginFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -14,7 +15,7 @@ class DetailsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_details, container, false)
+        return inflater.inflate(R.layout.fragment_login, container, false)
     }
 
 

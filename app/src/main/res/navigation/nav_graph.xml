@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/watchlistFragment"
-        android:name="com.alpertign.themoviemanager.WatchlistFragment"
+        android:name="com.alpertign.themoviemanager.view.fragments.WatchlistFragment"
         android:label="Watchlist"
         tools:layout="@layout/fragment_watchlist" />
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.alpertign.themoviemanager.DetailsFragment"
+        android:name="com.alpertign.themoviemanager.view.fragments.DetailsFragment"
         android:label="Details"
         tools:layout="@layout/fragment_details" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.alpertign.themoviemanager.SearchFragment"
+        android:name="com.alpertign.themoviemanager.view.fragments.SearchFragment"
         android:label="Search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/favouritesFragment"
-        android:name="com.alpertign.themoviemanager.FavouritesFragment"
+        android:name="com.alpertign.themoviemanager.view.fragments.FavouritesFragment"
         android:label="Favourites"
         tools:layout="@layout/fragment_favourites" />
 </navigation>
