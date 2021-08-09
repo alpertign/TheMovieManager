@@ -1,16 +1,19 @@
-package com.alpertign.themoviemanager
+package com.alpertign.themoviemanager.util
 
 class Constants {
 
     companion object{
 
         const val API_KEY = "b9ade068929d0b089949c527a8192f70"
-        const val PATH_START = "/3/search/movie?api_key=b9ade068929d0b089949c527a8192f70&query="
-        const val PATH_END = "&page=1&include_adult=false"
-        const val BASE_URL = "https://api.themoviedb.org"
+        const val BASE_URL = "https://api.themoviedb.org/3/"
 
         const val POSTER_PATH_START = "https://image.tmdb.org/t/p/w200"
         const val BACKDROP_PATH_START = "https://image.tmdb.org/t/p/w400"
+
+
+
+        const val QUERY_API_KEY = "api_key"
+        const val QUERY_QUERY = "query"
 
 
     }
